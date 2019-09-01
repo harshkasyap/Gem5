@@ -50,7 +50,7 @@ system.mem_ctrl.port = system.membus.master
 # Tell the system what we want to do.
 
 process = Process()
-process.cmd = ['tests/test-progs/hello/bin/X86/linux/hello']
+process.cmd = ['tests/test-progs/hello/bin/x86/linux/hello']
 system.cpu.workload = process
 system.cpu.createThreads()
 
